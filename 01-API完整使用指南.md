@@ -81,7 +81,9 @@ Materials Project 是一个基于高通量密度泛函理论(DFT)计算的材料
 3. 登录后进入 Dashboard
 4. 在 API 部分生成密钥
 
-**示例密钥**: `YOUR_API_KEY_HERE`
+**示例密钥格式**: `YOUR_API_KEY_HERE` (替换为您的真实API密钥)
+
+> ⚠️ **安全提示**: 请勿在公开文档或代码中暴露真实的API密钥！
 
 #### 2.2 使用API密钥
 

@@ -51,5 +51,11 @@ Thumbs.db
 *.json
 !package.json
 
-# PDF (if you want to ignore generated PDFs)
+# Temporary files
+*_OLD.md
+*_NEW.md
+*.tmp
+*.bak
+
+# PDF (keeping documentation PDFs)
 # *.pdf

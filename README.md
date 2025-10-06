@@ -5,7 +5,7 @@
 > 更新日期: 2025年10月6日
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Documentation](https://img.shields.io/badge/docs-latest-brightgreen.svg)](https://github.com/luffysolution/materials-project-api-docs)
+[![Documentation](https://img.shields.io/badge/docs-latest-brightgreen.svg)](https://github.com/luffysolution-svg/materials-project-api-docs)
 
 ---
 
@@ -324,7 +324,7 @@ pip install mp-api
 
 欢迎贡献！如果您发现错误或有改进建议：
 
-1. 🐛 提交 [Issue](https://github.com/luffysolution/materials-project-api-docs/issues)
+1. 🐛 提交 [Issue](https://github.com/luffysolution-svg/materials-project-api-docs/issues)
 2. 🔧 提交 Pull Request
 3. 📧 发送邮件至 luffysolution@gmail.com
 
@@ -343,7 +343,7 @@ pip install mp-api
 
 - **作者**: Luffy.Solution
 - **邮箱**: luffysolution@gmail.com
-- **GitHub**: [@luffysolution](https://github.com/luffysolution)
+- **GitHub**: [@luffysolution-svg](https://github.com/luffysolution-svg)
 
 ---
 

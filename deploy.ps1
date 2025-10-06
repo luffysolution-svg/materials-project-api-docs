@@ -7,7 +7,7 @@
 # ============================================
 
 # 您的 GitHub 用户名
-$GITHUB_USERNAME = "luffysolution"  # 请修改为您的实际用户名
+$GITHUB_USERNAME = "luffysolution-svg"  # 请修改为您的实际用户名
 
 # 仓库名称
 $REPO_NAME = "materials-project-api-docs"

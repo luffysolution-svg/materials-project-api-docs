@@ -3,7 +3,7 @@
 ## ⚠️ 紧急情况说明
 
 你的 Materials Project API密钥已经暴露在Git历史中：
-- **暴露的密钥**: `8Fv89Xd3xCyJxw9oyc2srbKbHBqA9MGK`
+- **暴露的密钥**: `YOUR_EXPOSED_API_KEY_HERE`
 - **暴露位置**: `01-API完整使用指南.md` (第84行)
 - **状态**: 已提交到Git历史
 
@@ -16,7 +16,7 @@
 1. 访问 https://materialsproject.org/
 2. 登录你的账号
 3. 进入 **Dashboard** → **API**
-4. **撤销（Revoke）** 旧密钥: `8Fv89Xd3xCyJxw9oyc2srbKbHBqA9MGK`
+4. **撤销（Revoke）** 旧密钥: `YOUR_EXPOSED_API_KEY_HERE`
 5. **生成新的API密钥**并安全保存
 
 ⏰ **建议立即完成此步骤**，防止密钥被滥用！
@@ -35,7 +35,7 @@
 # 下载 bfg.jar
 
 # 2. 创建替换文件
-"8Fv89Xd3xCyJxw9oyc2srbKbHBqA9MGK" > replacements.txt
+"YOUR_EXPOSED_API_KEY_HERE" > replacements.txt
 
 # 3. 运行BFG清理
 java -jar bfg.jar --replace-text replacements.txt "h:\material project\MP官方调用文档示例"
@@ -56,7 +56,7 @@ git branch backup-main
 
 # 使用filter-branch清理
 $env:FILTER_BRANCH_SQUELCH_WARNING = "1"
-git filter-branch --force --tree-filter "if (Test-Path '01-API完整使用指南.md') { (Get-Content '01-API完整使用指南.md' -Raw) -replace '8Fv89Xd3xCyJxw9oyc2srbKbHBqA9MGK', 'YOUR_API_KEY_HERE' | Set-Content '01-API完整使用指南.md' -NoNewline }" --tag-name-filter cat -- --all
+git filter-branch --force --tree-filter "if (Test-Path '01-API完整使用指南.md') { (Get-Content '01-API完整使用指南.md' -Raw) -replace 'YOUR_EXPOSED_API_KEY_HERE', 'YOUR_API_KEY_HERE' | Set-Content '01-API完整使用指南.md' -NoNewline }" --tag-name-filter cat -- --all
 
 # 清理
 git reflog expire --expire=now --all
@@ -86,7 +86,7 @@ git push origin --force --tags
 ```powershell
 # 在Git历史中搜索API密钥（应该找不到）
 cd "h:\material project\MP官方调用文档示例"
-git log --all --full-history -p | Select-String "8Fv89Xd3xCyJxw9oyc2srbKbHBqA9MGK"
+git log --all --full-history -p | Select-String "YOUR_EXPOSED_API_KEY_HERE"
 
 # 如果没有输出，说明清理成功！
 ```

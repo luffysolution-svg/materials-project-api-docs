@@ -4,5 +4,5 @@
 FILE="01-API完整使用指南.md"
 
 if [ -f "$FILE" ]; then
-    sed -i 's/8Fv89Xd3xCyJxw9oyc2srbKbHBqA9MGK/YOUR_API_KEY_HERE/g' "$FILE"
+    sed -i 's/YOUR_EXPOSED_API_KEY_HERE/YOUR_API_KEY_HERE/g' "$FILE"
 fi

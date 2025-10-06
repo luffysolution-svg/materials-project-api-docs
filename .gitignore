@@ -57,5 +57,8 @@ Thumbs.db
 *.tmp
 *.bak
 
+# Security documentation (local only)
+安全修复文档/
+
 # PDF (keeping documentation PDFs)
 # *.pdf
